@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aboreto&family=Barlow:ital,wght@0,400;1,300;1,400&family=Caveat:wght@400;500;700&family=DynaPuff&family=Noto+Sans+JP:wght@400;700;900&family=Permanent+Marker&family=Rubik+Distressed&family=Rubik+Marker+Hatch&family=Signika+Negative:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="./assets/imagenes/logo.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Asociación Colitas Felices</title>
+</head>
+
+<body id="grilla-pa">
+  <!-- inicia header -->
+  <header>
+    <a href="../index.html"> <img src="../assets/imagenes/logo1.png" alt="img logo" id="img-logo"></a>
+    <h1 class="animate__animated animate__rubberBand"> Asociación Colitas Felices</h1>
+    <nav class="nav">
+      <label for="menu" class="nav__label">
+        <img src="../assets/imagenes/icon-menú-hamb.png" alt="icon-menú-hamb" class="img-hamb">
+      </label>
+      <input type="checkbox"  id="menu" class="nav__input">
+      <ul class="main-menu">
+        <li><a href="../index.html"> Inicio </a></li>
+        <li><a href="../paginas/quines-somos.html"> ¿Quiénes somos? </a></li>
+        <li><a href="../paginas/perritos_en_adopcion.html"> Perritos en adopción</a></li>
+        <li><a href="../paginas/donar.html"> Donativos</a></li>
+        <li><a href="../paginas/contacto.html"> Contacto</a></li>
+      </ul>
+    </nav>
+ </header>
+  <!-- termina header -->
+
+  <!-- inicia main -->
+  <main id="main-contacto">
+    <h2 class="h2-main">Contacto</h2>
+    <form action="#" method="post">
+      <h3 id="h3-datos">Ingrse sus datos</h3><br>
+
+      <div class="datos-contacto__label">
+
+        <input id="nombre" name="nombre" type="text" placeholder="Nombre" minlength="3" maxlength="50" required
+          autofocus autocomplete="off">
+      </div><br>
+      <div class="datos-contacto__label">
+        <label for="email"></label>
+        <input type="email" id="email" required placeholder="Email">
+      </div><br>
+      <div class="datos-contacto__label">
+        <label for="teléfono"></label>
+        <input type="number" id="teléfono" required placeholder="Teléfono">
+
+      </div><br>
+      <div class="datos-contacto__label">
+        <label for="edad"></label>
+        <input id="edad" name="edad" type="number" min=1 max=100 required placeholder="Edad">
+      </div>
+      <br>
+      <div class="datos-contacto__label">
+        <textarea cols="35" rows="5" placeholder="Comentarios"></textarea>
+      </div><br>
+      <input id="enviar" type="submit" value="Enviar">
+      <input id="limpiar" type="reset" value="Limpiar">
+
+      </fieldset><br>
+    </form>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.153351556406!2d-98.13162938428334!3d19.44895400938457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d01f64621ac445%3A0xf6275bf0140abd79!2sCalle%20Principal%201%2C%20Primera%20Secc%2C%2090430%20San%20Bartolom%C3%A9%20Matlalohcan%2C%20Tlax.!5e0!3m2!1ses-419!2smx!4v1661539868385!5m2!1ses-419!2smx"
+      width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </main>
+  <!-- termina main -->
+
+  <!-- inicia footer -->
+  <footer>
+    <a href="https://web.facebook.com/ColitasFelicesApizaco">
+      <img src="../assets/imagenes/icons8-facebook-rodeado-de-círculo-48.png" alt="logo facebook"
+        class="redes-sociales">
+    </a>
+    <img src="../assets/imagenes/icons8-instagram-48.png" alt="instagram" class="redes-sociales">
+    <img src="../assets/imagenes/icons8-whatsapp-48.png" alt="whatsapp" class="redes-sociales">
+    <a href="https://www.tiktok.com/@colitas_felices_apizaco?_t=8V90RGhq6bd&_r=1">
+      <img src="../assets/imagenes/icons8-tik-tok-48.png" alt="Tiktok" class="redes-sociales">
+    </a>
+    <!-- <img src="../assets/imagenes/flechaarriba.png" alt="flecha arriba" class="flecha-arriba"> -->
+  </footer>
+
+</body>
+
+</html>

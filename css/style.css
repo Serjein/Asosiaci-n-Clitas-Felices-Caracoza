@@ -1,0 +1,10 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#header{
+    height: 10vh;
+}
+.container-fluid{
+    background: linear-gradient(180deg, #007991, #63d1b0);
+}
