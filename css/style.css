@@ -109,10 +109,10 @@ margin-bottom: 10px;
         margin-top: 40px;   
     }
     #titulo{
-        margin-top: 50px;
-        margin-left: 20px;
-        font-size: 25px;
-        text-align: center;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 35px;
+        text-align:center;
     }
     #button{
         margin-top: 60px;
@@ -195,20 +195,30 @@ margin-right: 50px;
     }
     #titulo{
         margin-top: 50px;
-        margin-left: 5px;
+        margin-left: 3px;
         font-size: 15px !important;
     }
     #button{
-        margin-top: 30px;
+        margin-top: 50px;
         margin-left: 0px;
+        padding: 0;
     }
+    /* .navbar-toggler-icon{
+        margin-top:30px ;
+    } */
     #menu{
-        margin-left: 0;  
+       font-size: 8px;
+        margin-left: 0;
+
     }
-    #button{
-       width: 5px !important;
-       height: 5px !important; 
+    .navbar-toggler-icon{
+       width: 30px !important;
+       height: 30px !important; 
+       
     }
+    /* .navbar-toggler-icon{
+        margin-left: 0;
+    } */
     /* carousel */
 .carousel-inner{
    
